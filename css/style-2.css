@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -163,7 +162,6 @@
   
   .neon-button {
     font-size: 2rem;
-  
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -179,6 +177,7 @@
     position: absolute;
     right: 73%;
     bottom:90%;
+    width: auto;
   }
   
   .neon-button::before {
