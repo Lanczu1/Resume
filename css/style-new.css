@@ -1088,55 +1088,55 @@ body{
     }
     .container{
         position: absolute;
-        scale: 120%;
+        scale: 110%;
         left: 28%;
         top: 15%;
     }
     .personal-text{
         position: absolute;
-        scale: 100%;
+        scale: 90%;
         text-align: center;
-        left: -58%;
+        left: -40%;
         top:45%;
         /*border: 2px solid red;*/
     }
     .group1{
         position: absolute;
-        scale: 120%;
-        left:1%;
-        bottom: 23%;
+        scale: 100%;
+        left:-2%;
+        bottom: 18.5%;
         /*border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
-        scale: 120%;
-        bottom:6%;
-        left: 3.5%;
+        scale: 100%;
+        bottom:2.3%;
+        left: -1.3%;
         /*border: 2px solid red;*/
     }
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(6em);
+        transform: translate(5em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(19em);
+        transform: translate(15em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.3em);
         top: 65%;
     }
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13em);
+        transform: translate(9em);
         top: 80%;
     }
     .container img{
