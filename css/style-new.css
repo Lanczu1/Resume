@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 *{
     margin: 0px;
-    padding: 0-px;
 }
 
 .context {
@@ -250,7 +249,12 @@
 .group2{
     color:white;
 }
-
+html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+}
 
 /* ICONS DOWN  */
 .profile-icon{
@@ -313,7 +317,7 @@
     .neon-button{
         position: absolute;
         left: 10%;
-        scale: 250%;
+        scale: 200%;
         top: 10%;
     }
     .container{
@@ -332,8 +336,8 @@
     .group1{
         position: absolute;
         scale: 350%;
-        bottom: 25%;
-        left: 16%;
+        bottom: 22%;
+        left: 19%;
         line-height:200%;
        /* border: 2px solid red;*/
     }
@@ -342,8 +346,27 @@
         line-height: 200%;
         scale: 350%;
         bottom: 29%;
-        right: 20%;
+        right: 12%;
        /* border: 2px solid red;*/
+    }
+    .profile-icon{
+        position: absolute;
+        left: 5%;
+    }
+    .gmail-icon{
+        position: absolute;
+        left: 5.8%;
+    }
+    .location-icon{
+        position: absolute;
+        left:6%;
+    }
+    .call-icon{
+        position: absolute;
+        left: 51%;
+    }
+    body{
+        touch-action: none;
     }
 }
 @media only screen and (max-width:2360px){
@@ -370,15 +393,15 @@
     .group1{
         position: absolute;
         scale: 350%;
-        left: 15%;
-        bottom: 28%;
+        left: 20%;
+        bottom: 20%;
         /*border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
         scale: 350%;
-        bottom: 32%;
+        bottom: 25%;
         right: 16%;
         /*border: 2px solid red;*/
     }
@@ -400,22 +423,22 @@
     .personal-text{
         position: absolute;
         scale: 300%;
-        right: 23%;
+        right: 20%;
         top:28%;
        /*border: 2px solid red;*/
     }
     .group1{
         position: absolute;
         scale: 350%;
-        left: 15%;
-        bottom: 28%;
+        left: 22%;
+        bottom: 20%;
        /* border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
         scale: 350%;
-        bottom: 32%;
+        bottom: 25.3%;
         right: 16%;
        /* border: 2px solid red;*/
     }
@@ -445,15 +468,15 @@
         position: absolute;
         scale: 250%;
         left: 13%;
-        bottom: 23%;
+        bottom: 20%;
         /*border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
         scale: 250%;
-        bottom: 28.3%;
-        right: 16%;
+        bottom: 27%;
+        right: 13%;
         /*border: 2px solid red;*/
     }
 }
@@ -481,7 +504,7 @@
         position: absolute;
         scale: 200%;
         bottom: 20%;
-        left: 13.5%;
+        left: 18%;
         margin-left: 0%;
         transform:translate(1%,10%);
         /*border: 2px solid red;*/
@@ -491,7 +514,7 @@
         line-height: 200%;
         scale: 200%;
         bottom: 22.5%;
-        right: 19%;
+        right: 15%;
         /*border: 2px solid red;*/
     }
 }
@@ -543,30 +566,30 @@
     }
     .container{
         position: absolute;
-        scale: 130%;
-        left: 20%;
-        top: 20%;
+        scale: 120%;
+        left: 23%;
+        top: 23%;
     }
     .personal-text{
         position: absolute;
-        scale: 170%;
+        scale: 150%;
         right: 30%;
-        top:23%;
+        top:27.3%;
         /*border: 2px solid red;*/
     }
     .group1{
         position: absolute;
-        scale: 170%;
-        left: 10%;
-        bottom: 25.3%;
+        scale: 150%;
+        left: 12%;
+        bottom: 17%;
         /*border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
-        scale: 180%;
-        bottom: 27%;
-        right: 14%;
+        scale: 150%;
+        bottom: 20%;
+        right: 11%;
         /*border: 2px solid red;*/
 }
 }
@@ -587,14 +610,14 @@
     .personal-text{
         position: absolute;
         scale: 160%;
-        right: 30%;
+        right: 25%;
         top:23%;
         /*border: 2px solid red;*/
     }
     .group1{
         position: absolute;
         scale: 170%;
-        left: 7%;
+        left: 15%;
         bottom: 23%;
     }
     .group2{
@@ -667,7 +690,7 @@
     .group1{
         position: absolute;
         scale: 150%;
-        left: 8%;
+        left: 13%;
         bottom: 23%;
         /*border: 2px solid red;*/
     }
@@ -704,7 +727,7 @@
     .group1{
         position: absolute;
         scale: 130%;
-        left: 6%;
+        left: 12%;
         bottom: 23%;
         /*border: 2px solid red;*/
     }
@@ -735,13 +758,13 @@
         position: absolute;
         scale: 120%;
         right: 20%;
-        top:23%;
+        top:25%;
         /*border: 2px solid red;*/
     }
     .group1{
         position: absolute;
         scale: 120%;
-        left: 6%;
+        left: 10%;
         bottom: 23%;
         /*border: 2px solid red;*/
     }
@@ -791,8 +814,8 @@
         /*border: 2px solid red;*/
     }
 }
-@media only screen and (max-width:761px) {
-    /*For laptop screen*/
+@media only screen and (max-width:768px) {
+    /*For tablet screen*/
     .neon-button{
         position: absolute;
         scale: 80%;
@@ -827,9 +850,30 @@
         right: 10%;
         /*border: 2px solid red;*/
     }
+    .container img{
+        filter: grayscale(0);
+    }
+    .container img:hover{
+        transform: scale(1);
+    }
+    .profile-icon:hover{
+        transform: scale(1);
+    }
+    .gmail-icon:hover{
+        transform: scale(1);
+    }
+    .call-icon:hover{
+        transform: scale(1);
+    }
+    .call-icon:hover{
+        transform: scale(1);
+    }
+    .location-icon:hover{
+        transform: scale(1);
+    }
 }
 @media only screen and (max-width:731px) {
-    /*For laptop screen*/
+    /*For tablet screen*/
     .neon-button{
         position: absolute;
         scale: 80%;
@@ -864,9 +908,30 @@
         right: 10%;
         /*border: 2px solid red;*/
     }
+    .container img{
+        filter: grayscale(0);
+    }
+    .container img:hover{
+        transform: scale(1);
+    }
+    .profile-icon:hover{
+        transform: scale(1);
+    }
+    .gmail-icon:hover{
+        transform: scale(1);
+    }
+    .call-icon:hover{
+        transform: scale(1);
+    }
+    .call-icon:hover{
+        transform: scale(1);
+    }
+    .location-icon:hover{
+        transform: scale(1);
+    }
 }
 @media only screen and (max-width:695px) {
-    /*For laptop screen*/
+    /*For tablet screen*/
     .neon-button{
         position: absolute;
         scale: 80%;
@@ -1053,13 +1118,13 @@
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5.5em);
+        transform: translate(5.7em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(16.6em);
+        transform: translate(18em);
         top:65%;
     }
     .call-icon{
@@ -1071,8 +1136,26 @@
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(11em);
+        transform: translate(12em);
         top: 80%;
+    }
+    .container img{
+        filter: grayscale(0);
+    }
+    .container img:hover{
+        pointer-events: none;
+    }
+    .profile-icon,.profile-icon:hover{
+        pointer-events: none;
+    }
+    .gmail-icon,.gmail-icon:hover{
+        pointer-events: none;
+    }
+    .call-icon,.call-icon:hover{
+        pointer-events: none;
+    }
+    .location-icon,.location-icon:hover{
+        pointer-events: none;
     }
 }
 @media only screen and (max-width:415px) {
@@ -1121,7 +1204,7 @@
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(16.0em);
+        transform: translate(17em);
         top:65%;
     }
     .call-icon{
@@ -1129,6 +1212,12 @@
         width: 4%;
         transform: translate(5em);
         top: 65%;
+    }
+    .location-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(11em);
+        top: 80%;
     }
 }
 @media only screen and (max-width:405px) {
@@ -1177,14 +1266,20 @@
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(15.5em);
+        transform: translate(16em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.3em);
         top: 65%;
+    }
+    .location-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(10em);
+        top: 80%;
     }
 }
 @media only screen and (max-width:399px) {
@@ -1227,13 +1322,13 @@
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.2em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(15em);
+        transform: translate(16em);
         top:65%;
     }
     .call-icon{
@@ -1245,7 +1340,7 @@
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(9em);
+        transform: translate(10em);
         top: 80%;
     }
 }
@@ -1267,7 +1362,7 @@
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -52%;
+        left: -53%;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1289,25 +1384,25 @@
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(4.7em);
+        transform: translate(4.9em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13em);
+        transform: translate(14.5em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.3em);
         top: 65%;
     }
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(7em);
+        transform: translate(8.5em);
         top: 80%;
     }
 }
@@ -1357,13 +1452,13 @@
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13em);
+        transform: translate(13.5em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.5em);
         top: 65%;
     }
     .location-icon{
@@ -1391,7 +1486,7 @@
         position: absolute;
         scale: 90%;
         text-align: center;
-        left: -40%;
+        left: -45%;
         top:43%;
         /*border: 2px solid red;*/
     }
@@ -1413,13 +1508,13 @@
     .profile-icon{
         position: absolute;
         width: 5.5%;
-        transform: translate(2.8em);
+        transform: translate(3.1em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 5.5%;
-        transform: translate(6.6em);
+        transform: translate(8.5em);
         top:67%;
     }
     .call-icon{
@@ -1427,5 +1522,11 @@
         width: 5.5%;
         transform: translate(5.5em);
         top: 65%;
+    }
+    .location-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(3em);
+        top: 85%;
     }
 }
