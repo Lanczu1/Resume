@@ -1158,17 +1158,17 @@ body{
         pointer-events: none;
     }
 }
-@media only screen and (max-width:415px) {
+@media only screen and (max-width:405px) {
     /*For Mobile Phone Medium*/
     .neon-button{
         position: absolute;
         scale: 80%;
-        top: 5%;
-        left: 5%;
+        top: 3%;
+        left: 3%;
     }
     .container{
         position: absolute;
-        scale: 90%;
+        scale: 110%;
         left: 27%;
         top: 15%;
     }
@@ -1176,7 +1176,7 @@ body{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -52%;
+        left: -55%;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1184,15 +1184,15 @@ body{
         position: absolute;
         scale: 100%;
         left:-4%;
-        bottom: 10%;
+        bottom: 21%;
         /*border: 2px solid red;*/
     }
     .group2{
         position: absolute;
         line-height: 200%;
         scale: 100%;
-        bottom:13%;
-        right: 5%;
+        bottom:6%;
+        left: -3%;
         /*border: 2px solid red;*/
     }
     .profile-icon{
@@ -1210,75 +1210,13 @@ body{
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5em);
+        transform: translate(5.3em);
         top: 65%;
     }
     .location-icon{
         position: absolute;
         width: 4%;
         transform: translate(11em);
-        top: 80%;
-    }
-}
-@media only screen and (max-width:405px) {
-    /*For Mobile Phone Medium*/
-    .neon-button{
-        position: absolute;
-        scale: 80%;
-        top: 5%;
-        left: 5%;
-    }
-    .container{
-        position: absolute;
-        scale: 90%;
-        left: 27%;
-        top: 15%;
-    }
-    .personal-text{
-        position: absolute;
-        scale: 100%;
-        text-align: center;
-        left: -52%;
-        top:45%;
-        /*border: 2px solid red;*/
-    }
-    .group1{
-        position: absolute;
-        scale: 100%;
-        left:-4%;
-        bottom: 10%;
-        /*border: 2px solid red;*/
-    }
-    .group2{
-        position: absolute;
-        line-height: 200%;
-        scale: 100%;
-        bottom:13%;
-        right: 5%;
-        /*border: 2px solid red;*/
-    }
-    .profile-icon{
-        position: absolute;
-        width: 4%;
-        transform: translate(5.3em);
-        top:2%;
-    }
-    .gmail-icon{
-        position: absolute;
-        width: 4%;
-        transform: translate(16em);
-        top:65%;
-    }
-    .call-icon{
-        position: absolute;
-        width: 4%;
-        transform: translate(5.3em);
-        top: 65%;
-    }
-    .location-icon{
-        position: absolute;
-        width: 4%;
-        transform: translate(10em);
         top: 80%;
     }
 }
@@ -1308,7 +1246,7 @@ body{
         position: absolute;
         scale: 90%;
         left:-4%;
-        bottom: 10%;
+        bottom: 14%;
         /*border: 2px solid red;*/
     }
     .group2{
