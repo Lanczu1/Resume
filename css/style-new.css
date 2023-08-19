@@ -1233,12 +1233,14 @@ body{
         scale: 110%;
         left: 13vh;
         top: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     .personal-text{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -30vh;
         top:43%;
         /*border: 2px solid red;*/
     }
@@ -1266,19 +1268,19 @@ body{
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13.5em);
+        transform: translate(13em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(-1em);
+        transform: translate(-.4em);
         top: 65%;
     }
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(11em);
+        transform: translate(10em);
         top: 80%;
     }
 }
