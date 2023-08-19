@@ -1231,11 +1231,9 @@ body{
     .container{
         position: absolute;
         scale: 100%;
-        left: 14.8vh;
+        left: 12vh;
         top: 14%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+        
     }
     .personal-text{
         position: absolute;
@@ -1262,13 +1260,13 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5.4em);
+        transform: translate(5em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(14em);
+        transform: translate(12.5em);
         top:65%;
     }
     .call-icon{
@@ -1280,10 +1278,11 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(11em);
+        transform: translate(10em);
         top: 80%;
     }
 }
+
 
 @media only screen and (max-width:383px) {
     /*For Mobile Phone Medium*/
@@ -1331,7 +1330,7 @@ body{
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(10em);
+        transform: translate(9.5em);
         top:65%;
     }
     .call-icon{
