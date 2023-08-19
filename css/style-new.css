@@ -1088,15 +1088,15 @@ body{
     }
     .container{
         position: absolute;
-        scale: 100%;
-        left: 17.5vh;
+        scale: 120%;
+        left: 14vh;
         top: 15%;
     }
     .personal-text{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -35vh;
+        left: -36vh;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1118,25 +1118,25 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5.9em);
+        transform: translate(6.6em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(15em);
+        transform: translate(18.3em);
         top:65%;
     }
     .call-icon{
         position: absolute;
         width: 4%;
-        transform: translate(-1.5em);
+        transform: translate(-2.5em);
         top: 65%;
     }
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(12.5em);
+        transform: translate(15em);
         top: 80%;
     }
     .container img{
@@ -1158,6 +1158,68 @@ body{
         pointer-events: none;
     }
 }
+@media only screen and (max-width:415px) {
+    /*For Mobile Phone Medium*/
+    .neon-button{
+        position: absolute;
+        scale: 80%;
+        top: 3%;
+        left: 3%;
+    }
+    .container{
+        position: absolute;
+        scale: 110%;
+        left: 15dvh;
+        top: 15%;
+    }
+    .personal-text{
+        position: absolute;
+        scale: 100%;
+        text-align: center;
+        left: -55%;
+        top:45%;
+        /*border: 2px solid red;*/
+    }
+    .group1{
+        position: absolute;
+        scale: 90%;
+        left:-3%;
+        bottom: 19%;
+        /*border: 2px solid red;*/
+    }
+    .group2{
+        position: absolute;
+        line-height: 200%;
+        scale: 90%;
+        bottom:5%;
+        left: -3.5%;
+        /*border: 2px solid red;*/
+    }
+    .profile-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(5.7em);
+        top:2%;
+    }
+    .gmail-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(14.5em);
+        top:65%;
+    }
+    .call-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(-1em);
+        top: 65%;
+    }
+    .location-icon{
+        position: absolute;
+        width: 4%;
+        transform: translate(12em);
+        top: 80%;
+    }
+}
 @media only screen and (max-width:405px) {
     /*For Mobile Phone Medium*/
     .neon-button{
@@ -1168,8 +1230,8 @@ body{
     }
     .container{
         position: absolute;
-        scale: 100%;
-        left: 16dvh;
+        scale: 110%;
+        left: 15dvh;
         top: 15%;
     }
     .personal-text{
