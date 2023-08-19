@@ -1008,7 +1008,7 @@ body{
     /*For laptop screen*/
     .neon-button{
         position: absolute;
-        scale: 80;
+        scale: 80%;
         top: 5%;
         left: 5%;
     }
@@ -1084,19 +1084,19 @@ body{
         position: absolute;
         scale: 80%;
         top: 3%;
-        left: 3%;
+        left: 3vh;
     }
     .container{
         position: absolute;
         scale: 100%;
-        left: 26%;
+        left: 17.5vh;
         top: 15%;
     }
     .personal-text{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -55%;
+        left: -35vh;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1169,14 +1169,14 @@ body{
     .container{
         position: absolute;
         scale: 100%;
-        left: 26%;
+        left: 16dvh;
         top: 15%;
     }
     .personal-text{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -60%;
+        left: -55%;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1198,13 +1198,13 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5.9em);
+        transform: translate(5.5em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(18em);
+        transform: translate(17em);
         top:65%;
     }
     .call-icon{
@@ -1216,7 +1216,7 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(12em);
+        transform: translate(11em);
         top: 80%;
     }
 }
@@ -1225,20 +1225,20 @@ body{
     .neon-button{
         position: absolute;
         scale: 80%;
-        top: 3cqw;
+        top: 3%;
         left: 3%;
     }
     .container{
         position: absolute;
         scale: 100%;
-        left: 24%;
+        left: 15vh;
         top: 14%;
     }
     .personal-text{
         position: absolute;
         scale: 90%;
         text-align: center;
-        left: -50%;
+        left: -25vh;
         top:43%;
         /*border: 2px solid red;*/
     }
@@ -1260,13 +1260,13 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(5.2em);
+        transform: translate(4.5em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(15em);
+        transform: translate(13em);
         top:65%;
     }
     .call-icon{
@@ -1278,7 +1278,7 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(9em);
+        transform: translate(7em);
         top: 80%;
     }
 }
@@ -1301,7 +1301,7 @@ body{
         position: absolute;
         scale: 90%;
         text-align: center;
-        left: -45%;
+        left: -27vh;
         top:45%;
         /*border: 2px solid red;*/
     }
