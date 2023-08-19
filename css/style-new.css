@@ -1266,7 +1266,7 @@ body{
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(16em);
+        transform: translate(15em);
         top:65%;
     }
     .call-icon{
@@ -1278,10 +1278,11 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(10em);
+        transform: translate(9em);
         top: 80%;
     }
 }
+
 @media only screen and (max-width:383px) {
     /*For Mobile Phone Medium*/
     .neon-button{
