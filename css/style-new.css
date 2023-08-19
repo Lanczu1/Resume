@@ -1344,7 +1344,7 @@ body{
         top: 80%;
     }
 }
-@media only screen and (max-width:365px) {
+@media only screen and (max-width:367px) {
     /*For Mobile Phone Medium*/
     .neon-button{
         position: absolute;
