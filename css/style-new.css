@@ -1230,15 +1230,15 @@ body{
     }
     .container{
         position: absolute;
-        scale: 100%;
-        left: 15vh;
+        scale: 120%;
+        left: 13vh;
         top: 14%;
     }
     .personal-text{
         position: absolute;
-        scale: 90%;
+        scale: 100%;
         text-align: center;
-        left: -25vh;
+        left: -23vh;
         top:43%;
         /*border: 2px solid red;*/
     }
