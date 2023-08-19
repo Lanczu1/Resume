@@ -1230,15 +1230,15 @@ body{
     }
     .container{
         position: absolute;
-        scale: 120%;
-        left: 13vh;
+        scale: 110%;
+        left: 12.3vh;
         top: 14%;
     }
     .personal-text{
         position: absolute;
         scale: 100%;
         text-align: center;
-        left: -23vh;
+        left: -30vh;
         top:43%;
         /*border: 2px solid red;*/
     }
@@ -1260,13 +1260,13 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(4.5em);
+        transform: translate(5.3em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13em);
+        transform: translate(17em);
         top:65%;
     }
     .call-icon{
@@ -1278,7 +1278,7 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(7em);
+        transform: translate(11em);
         top: 80%;
     }
 }
@@ -1293,15 +1293,15 @@ body{
     }
     .container{
         position: absolute;
-        scale: 100%;
+        scale: 110%;
         left: 24%;
         top: 15%;
     }
     .personal-text{
         position: absolute;
-        scale: 90%;
+        scale: 100%;
         text-align: center;
-        left: -27vh;
+        left: -29vh;
         top:45%;
         /*border: 2px solid red;*/
     }
@@ -1323,13 +1323,13 @@ body{
     .profile-icon{
         position: absolute;
         width: 4%;
-        transform: translate(4.2em);
+        transform: translate(5.3em);
         top:2%;
     }
     .gmail-icon{
         position: absolute;
         width: 4%;
-        transform: translate(13em);
+        transform: translate(17em);
         top:65%;
     }
     .call-icon{
@@ -1341,7 +1341,7 @@ body{
     .location-icon{
         position: absolute;
         width: 4%;
-        transform: translate(7em);
+        transform: translate(11em);
         top: 80%;
     }
 }
